@@ -1,2 +1,3 @@
 ---
   mnt_dir: '/mnt'
+  test_var: 'only in ewr1.yaml'
