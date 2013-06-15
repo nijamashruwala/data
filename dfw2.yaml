@@ -1,0 +1,3 @@
+---
+  mnt_dir: '/dfw2/mnt_dir/folder'
+  test_var: 'only in dfw2.yaml'

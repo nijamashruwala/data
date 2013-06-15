@@ -1,3 +1,4 @@
 ---
   mnt_dir: '/mnt'
+  opdk_run_version: '4.22.RC4patched'
   test_var: 'only in uattemp/ewr1/common.yaml'

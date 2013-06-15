@@ -1,5 +1,0 @@
----
-  mnt_dir: '/media/ephemeral0'
-  opdk_run_version: '4.22.RC4'
-  lotus: test.%{::fqdn}
-  apigee_root: %{::mnt_dir}/apigee-%{::opdk_run_version}
