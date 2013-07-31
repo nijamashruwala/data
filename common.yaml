@@ -1,9 +1,9 @@
 ---
-  mnt_dir: '/this/is/a/placeholder/default'
   test_var2: 'only in common.yaml'
   smtp_host: 'outbound.smtp.usi.net'
   smtp_port: '25'
   smtp_user: '0'
   smtp_passwd: '0'
   orgadmin_email: 'admin@apigee.com'
-
+	cass_row_caching: 'false'
+	root_log_level: 'INFO'
