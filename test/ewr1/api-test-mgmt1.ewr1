@@ -1,0 +1,11 @@
+---
+  # 
+  # Vars for unattended OPDK install
+  #
+  # LDAP Config
+  
+  
+  
+LDAP_TYPE=2
+LDAP_SID=1
+LDAP_PEER=$IP5

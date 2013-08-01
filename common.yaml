@@ -1,9 +1,66 @@
 ---
+# Override these in more specific data files if needed
+  #
+  # Variables here are global to all installations
+  #
   test_var2: 'only in common.yaml'
+  # Version numbers
+  opdk_version = "4.22.6.1"
+  apigee_rpm_version = "1.0.0.1305310544"
+	# Port allocations
+	ds_api_port: ''
+	ds_rpc_port:''
+	ds_jmx_port:''
+	ms_api_port: '8080'
+	ms_rpc_port:'4526'
+	ms_jmx_port:'1099'
+	router_api_port: '8081'
+	router_rpc_port:'4527'
+	router_jmx_port:'1100'
+	mp_api_port: '8082'
+	mp_rpc_port:'4528'
+	mp_jmx_port:'1101'
+	qpid_api_port: '8083'
+	qpid_rpc_port:'4529'
+	qpid_jmx_port:'1102'
+	pgsql_api_port: '8084'
+	pgsql_rpc_port:'4530'
+	pgsql_jmx_port:'1103'
+	ingest_api_port: '8085'
+	ingest_rpc_port:'4531'
+	ingest_jmx_port:'1104'
+	#
+	# Variables for the unattended OPDK install
+	# Some vars should be set in $planet/common.yaml
+	#
+  orgadmin_email: 'admin@apigee.com'
+  # Override orgadmin_passwd in the $planet/common.yaml
+  orgadmin_passwd: 'secret_password'
+  apigee_license_file: '/home/apigee/license.txt'
+  opdk_java_home: '/usr/java/default'
+  opdk_profile_types: 'aio,ds,is,mp,ms,ps,qis,qs,r,rmp,sa,sax'
+  # SMTP Info
+  opdk_skip_smtp: 'y'
   smtp_host: 'outbound.smtp.usi.net'
   smtp_port: '25'
   smtp_user: '0'
   smtp_passwd: '0'
-  orgadmin_email: 'admin@apigee.com'
+  opdk_smtp_ssl: 'n'
+  # LDAP Config
+  opdk_ldap_type: '2'
+  # Override ldap_passwd in the $planet/common.yaml
+  ldap_passwd: 'secret_password'
+  opdk_enable_ax: 'y'
+  # Pod and region info, can be overridden at the planet level
+  mp_pods: 'gateway-1'
+  region: 'dc-1'
+  #
+  # Default settings
+  #
+  # Run as the apigee user
+  apigee_user: 'apigee'
+  apigee_user_home: '/home/apigee'
+  # Row caching is off by default
 	cass_row_caching: 'false'
+	# Logging is at INFO by default
 	root_log_level: 'INFO'
