@@ -1,0 +1,4 @@
+---
+  mnt_dir: '/mnt'
+  opdk_run_version: '4.22.6.1'
+  test_var: 'only in dev/ewr1/common.yaml'
