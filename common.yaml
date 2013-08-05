@@ -5,34 +5,34 @@
   #
   test_var2: 'only in common.yaml'
   # Version numbers
-  opdk_version = "4.22.6.1"
-  apigee_rpm_version = "1.0.0.1305310544"
-	# Port allocations
-	ds_api_port: ''
-	ds_rpc_port:''
-	ds_jmx_port:''
-	ms_api_port: '8080'
-	ms_rpc_port:'4526'
-	ms_jmx_port:'1099'
-	router_api_port: '8081'
-	router_rpc_port:'4527'
-	router_jmx_port:'1100'
-	mp_api_port: '8082'
-	mp_rpc_port:'4528'
-	mp_jmx_port:'1101'
-	qpid_api_port: '8083'
-	qpid_rpc_port:'4529'
-	qpid_jmx_port:'1102'
-	pgsql_api_port: '8084'
-	pgsql_rpc_port:'4530'
-	pgsql_jmx_port:'1103'
-	ingest_api_port: '8085'
-	ingest_rpc_port:'4531'
-	ingest_jmx_port:'1104'
-	#
-	# Variables for the unattended OPDK install
-	# Some vars should be set in $planet/common.yaml
-	#
+  opdk_version: '4.22.6.1'
+  apigee_rpm_version: '1.0.0.1305310544'
+  # Port all
+  ds_api_port: ''
+  ds_rpc_port: ''
+  ds_jmx_port: ''
+  ms_api_port: '8080'
+  ms_rpc_port: '4526'
+  ms_jmx_port: '1099'
+  router_api_port: '8081'
+  router_rpc_port: '4527'
+  router_jmx_port: '1100'
+  mp_api_port: '8082'
+  mp_rpc_port: '4528'
+  mp_jmx_port: '1101'
+  qpid_api_port: '8083'
+  qpid_rpc_port: '4529'
+  qpid_jmx_port: '1102'
+  pgsql_api_port: '8084'
+  pgsql_rpc_port: '4530'
+  pgsql_jmx_port: '1103'
+  ingest_api_port: '8085'
+  ingest_rpc_port: '4531'
+  ingest_jmx_port: '1104'
+  #
+  # Variables for the unattended OPDK install
+  # Some vars should be set in $planet/common.yaml
+  #
   orgadmin_email: 'admin@apigee.com'
   # Override orgadmin_passwd in the $planet/common.yaml
   orgadmin_passwd: 'secret_password'
@@ -61,6 +61,6 @@
   apigee_user: 'apigee'
   apigee_user_home: '/home/apigee'
   # Row caching is off by default
-	cass_row_caching: 'false'
-	# Logging is at INFO by default
-	root_log_level: 'INFO'
+  cass_row_caching: 'false'
+  # Logging is at INFO by default
+  root_log_level: 'INFO'
