@@ -57,6 +57,8 @@
   #
   # Default settings
   #
+  # Manage users and groups
+  manage_users_groups: 'true'
   # Run as the apigee user
   apigee_user: 'apigee'
   apigee_user_home: '/home/apigee'
