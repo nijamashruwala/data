@@ -1,3 +1,4 @@
 ---
   mnt_dir: '/media/ephemeral0'
   test_var: 'only in uattemp/dfw2/common.yaml'
+  manage_users_groups: 'false'
