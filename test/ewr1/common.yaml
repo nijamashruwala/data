@@ -18,3 +18,8 @@
   # Planet IPs and types
   #
   opdk_profile_types: 'aio,ds,is,mp,ms,ps,qis,qs,r,rmp,sa,sax'
+  #
+  # DIY ipsec tunneling
+  #
+  autorouteipsec_network : '10.2.142.0'
+  autorouteipsec_netmask : '255.255.254.0'

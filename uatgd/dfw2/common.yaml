@@ -1,0 +1,9 @@
+---
+  mnt_dir: '/mnt'
+  test_var: 'only in uatgd/dfw2/common.yaml'
+  manage_users_groups: 'true'
+  #
+  # DIY ipsec tunneling
+  #
+  autorouteipsec_network : '10.2.24.0'
+  autorouteipsec_netmask : '255.255.254.0'

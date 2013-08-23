@@ -3,3 +3,8 @@
   opdk_run_version: '4.22.RC4patched'
   test_var: 'only in uattemp/ewr1/common.yaml'
   manage_users_groups: 'false'
+  #
+  # DIY ipsec tunneling
+  #
+  autorouteipsec_network : '10.3.36.0'
+  autorouteipsec_netmask : '255.255.254.0'
