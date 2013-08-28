@@ -5,5 +5,7 @@
   #
   # DIY ipsec tunneling
   #
-  autorouteipsec_network : '10.1.80.0'
+  autorouteipsec_enabled : 'true'
+#  autorouteipsec_network : '10.1.80.0'
+  autorouteipsec_network : '10.2.24.0'
   autorouteipsec_netmask : '255.255.254.0'

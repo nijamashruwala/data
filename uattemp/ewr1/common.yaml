@@ -6,5 +6,6 @@
   #
   # DIY ipsec tunneling
   #
+  autorouteipsec_enabled : 'true'
   autorouteipsec_network : '10.3.36.0'
   autorouteipsec_netmask : '255.255.254.0'
