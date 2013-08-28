@@ -62,6 +62,8 @@
   # Run as the apigee user
   apigee_user: 'apigee'
   apigee_user_home: '/home/apigee'
+  # Disable DIY IPsec between planets by default
+  autorouteipsec_enabled: 'false'
   # Row caching is off by default
   cass_row_caching: 'false'
   # Logging is at INFO by default
