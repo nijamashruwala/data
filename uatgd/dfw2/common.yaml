@@ -1,7 +1,7 @@
 ---
   mnt_dir: '/mnt'
   test_var: 'only in uatgd/dfw2/common.yaml'
-  manage_users_groups: 'true'
+  manage_users_groups: 'false'
   #
   # DIY ipsec tunneling
   #
